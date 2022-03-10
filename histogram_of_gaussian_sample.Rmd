@@ -1,0 +1,20 @@
+---
+title: "inclass_lecture26"
+author: "Laura Wiesner"
+date: "3/9/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## (1) Histogram of Gaussian Sample
+
+
+```{r, include = TRUE}
+# sample of size 100
+Y<- rnorm( 100)
+hist( Y)
+```
+
